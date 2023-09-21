@@ -9,8 +9,8 @@ async function load(){
   
   Loop through events and place them on page
   for (let event of events) {
-  if column name has space, you can use
-  event['Image URL']
+  // if column name has space, you can use
+  // event['Image URL']
     eventsContainer.innerHTML += `
       <div class="card w-72 bg-base-100 shadow-xl">
         <figure><img src="${event.Image}" alt="${event.Name}" /></figure>
@@ -40,5 +40,6 @@ async function load(){
 //     `).join()
 // }
 
+}
 
 load();
