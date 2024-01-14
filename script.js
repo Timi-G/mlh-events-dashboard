@@ -18,7 +18,7 @@ async function load() {
           <h2 class="card-title">${event.Name}</h2>
           <p>${event.Location}<br/>@ ${event.Date}</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary" href="${event.Link}" target="_blank">RSVP</button>
+            <a class="btn btn-primary" href="${event.Link}" target="_blank">RSVP</a>
           </div>
         </div>
       </div>
